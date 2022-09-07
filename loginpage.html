@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/CSS/banner.css" />
+    <script src="./resources/JS/banner.js" defer></script>
+    <link rel="stylesheet" href="./resources/CSS/loginpage.css" />
+    <title>Your Favorite Page | Login</title>
+    <link
+      rel="shortcut icon"
+      type="image"
+      href="./resources-banner/images/inacode-icon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Montserrat:wght@500&family=Work+Sans&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="blank-background-dropdown"></div>
+      <div id="blank-background-modal"></div>
+
+      <div class="contact-info-box">
+        <div class="contact-info">
+          <p>Let's get in touch!</p>
+          <p id="contactemail">
+            <strong>Email:</strong> <i>contactinalife@gmail.com</i>
+          </p>
+          <div class="contact-info-button">
+            <button id="contact-info-button-close">❌ Close</button>
+          </div>
+        </div>
+      </div>
+      <div class="job-info-box">
+        <div class="job-info">
+          <p>Kindly use your company Email adress for communication.</p>
+          <p id="personalemail">
+            <strong>Email:</strong> <i>iftesamnabi@gmail.com</i>
+          </p>
+          <div class="job-info-button">
+            <button id="job-info-button-close">❌ Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-content-box">
+        <div class="modal-content">
+          <p>
+            Dear recruiter, <br /><br />Please note that I am an international
+            student and require an <strong>H1B sponsorship</strong> to work in
+            the US.
+          </p>
+          <div class="modal-content-button">
+            <button id="modal-content-button-proceed">Proceed</button>
+            <button id="modal-content-button-close">❌ Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <p id="portfolio"><strong>≡</strong>Portfolio</p>
+      </div>
+      <div class="main-banner">
+        <a
+          ><img
+            class="logo"
+            src="./resources-banner/images/inacode-logo.png"
+            alt="HOME"
+        /></a>
+        <nav href="./skillsandcertificates.html">
+          <ul class="navlinks">
+            <li class="navicon"><a href="#">Projects</a></li>
+            <li class="navicon">
+              <a href="./skillsandcertificates.html">Skills & Certificates</a>
+            </li>
+            <li class="navicon">
+              <a
+                href="./resources-banner/Data/RESUME_Iftesam-Nabi_Front-End-Developer.png"
+                download="RESUME_Iftesam-Nabi.png"
+                id="downloadresume"
+                ><span>↓</span> Download Resume</a
+              >
+            </li>
+            <li class="navicon">
+              <a href="https://www.linkedin.com/in/iftesamnabi/" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="navicon">
+              <a href="#" id="videobanners"><strong>▶</strong> Learn With Me</a>
+            </li>
+            <li class="navicon">
+              <a
+                href="https://www.youtube.com/c/INALIFEVIDEOS"
+                target="_blank"
+                id="videobanners"
+                ><strong>▶</strong> Know Me</a
+              >
+            </li>
+            <li class="navicon"><a href="#">About Me</a></li>
+            <li>
+              <a href="#" class="navicon" id="backward"
+                ><strong>⤶</strong>BACK</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="dropdown" id="dropdown">
+          <button class="contactme" id="contactbutton">Contact</button>
+          <ul class="dropdownul">
+            <p id="contactclose">❌</p>
+            <li id="dropdown1">Recruit Me!</li>
+            <li id="dropdown2">Other Inquires!</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="full-screen-container">
+      <div class="login-container">
+        <h1 class="login-title">Welcome Back!</h1>
+        <form class="form">
+          <div class="input-group success">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+            <span class="msg">Valid email</span>
+          </div>
+          <div class="input-group error">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+            <span class="msg">Incorrect password</span>
+          </div>
+          <button type="submit" class="login-button">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

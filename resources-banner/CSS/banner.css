@@ -1,0 +1,371 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-info {
+  display: none;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.6);
+  padding: 40px 30px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 20px;
+  margin: 17% 0% 30px 37%;
+  z-index: 1000;
+}
+
+.contact-info p {
+  color: black;
+  margin-top: 45px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#contactemail {
+  font-size: 20px;
+}
+
+.contact-info-button {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+#contact-info-button-close {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 12px;
+  background-color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#contact-info-button-close:hover {
+  font-size: 16px;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+.job-info {
+  display: none;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.6);
+  padding: 40px 30px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 20px;
+  margin: 17% 0% 30px 37%;
+  z-index: 1000;
+}
+
+.job-info p {
+  color: black;
+  margin-top: 45px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#personalemail {
+  font-size: 20px;
+}
+
+.job-info-button {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+#job-info-button-close {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 12px;
+  background-color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#job-info-button-close:hover {
+  font-size: 16px;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  display: none;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.6);
+  padding: 40px 30px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 20px;
+  margin: 17% 0% 30px 37%;
+  z-index: 1000;
+}
+
+.modal-content p {
+  color: black;
+  margin-top: 45px;
+  font-size: 15px;
+}
+
+.modal-content-button {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+#modal-content-button-proceed {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 12px;
+  /* background-color: #fba550; */
+  background-color: #1bd1ff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#modal-content-button-proceed:hover {
+  font-size: 18px;
+  background-color: #ff8d1b;
+}
+
+#modal-content-button-close {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 12px;
+  background-color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#modal-content-button-close:hover {
+  font-size: 16px;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+#portfolio {
+  display: inline; /*none*/
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+  margin: 0;
+  margin: 75px 49% 75px 48%; /*padding*/
+  /* background-color: green; */
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  cursor: cursor;
+  word-spacing: 0.15rem;
+  transition: all 0.1s ease 0s;
+}
+
+#portfolio strong {
+  color: #ff8d1b;
+}
+
+#portfolio:hover {
+  color: #ff8d1b;
+  font-size: 21px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+.main-banner {
+  background-color: rgb(40, 36, 36);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px 12%;
+}
+
+.main-banner li,
+.main-banner a,
+.main-banner button {
+  font-family: "montserrat", "Helvetica Neue", Helvetica;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  word-spacing: 0.15rem;
+}
+
+.logo {
+  text-align: right;
+  cursor: pointer;
+  height: 100px;
+  /* margin-right: auto; */
+  transition: all 0.2s ease 0s;
+}
+
+.logo:hover {
+  height: 102px;
+}
+
+.navlinks {
+  list-style: none;
+}
+
+.navicon {
+  display: none; /*inline-block*/
+  padding: 8px 10px;
+  margin: 9px 1px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: none;
+  border-radius: 12px;
+  cursor: cursor;
+  transition: all 0.1s ease 0s;
+}
+
+.navicon a {
+  transition: all 0.2s ease 0s;
+}
+
+.navicon a:hover {
+  color: #1bd1ff;
+  font-size: 15px;
+}
+
+#downloadresume:hover {
+  color: rgb(151, 148, 148);
+}
+
+#downloadresume span {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+#videobanners:hover {
+  padding: 8px 5px;
+  margin: 9px 1px;
+  background-color: rgba(255, 0, 0, 0.8);
+  border: none;
+  border-radius: 8px;
+  cursor: cursor;
+  transition: all 0.1s ease 0s;
+  color: rgb(255, 255, 255);
+}
+
+a#videobanners strong {
+  color: rgb(255, 255, 255);
+}
+
+.contactme {
+  position: relative;
+  margin: 53px 48% 53px 48%;
+  text-align: right;
+  padding: 10px 12px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.contactme:hover {
+  background-color: rgba(52, 199, 235, 0.8);
+  font-size: 15px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownul {
+  z-index: 1000;
+  margin-top: 12px;
+  margin-left: -150px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 200%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 60px 50px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 3px rgba(255, 255, 255, 0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.1s ease-in;
+}
+
+#contactclose {
+  font-size: 20px;
+  position: absolute;
+  margin: 0px 0px 105% 88%; /*PADDING*/
+  /* background-color: rgba(245, 245, 245, 0.4); */
+  top: 5px;
+  right: 6px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 3px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+#contactclose:hover {
+  font-size: 22px;
+}
+
+#dropdown1 {
+  margin: 10px 50px;
+  display: flex;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+#dropdown1:hover {
+  font-size: 140%;
+  color: #ff8d1b;
+}
+
+#dropdown2 {
+  margin: 10px 50px;
+  display: flex;
+  font-size: 20px;
+  padding-top: 40px;
+  border-top: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#dropdown2:hover {
+  color: rgba(111, 226, 255, 0.8);
+}
+
+#backward {
+  background-color: rgba(255, 255, 255, 0);
+}
+#backward:hover {
+  color: #ff8d1b;
+  font-size: 17px;
+}
+
+#backward strong {
+  color: #ff8d1b;
+}

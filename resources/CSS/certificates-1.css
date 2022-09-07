@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
+}
+
+.certificate-texts {
+  border-top: 3px solid white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: -150px;
+  padding: 0px 20%;
+  cursor: default;
+}
+
+.certificate-texts h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 60px;
+}
+
+.certificate-texts P {
+  text-align: justify;
+  margin-top: -15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  word-spacing: 3px;
+  line-height: 40px;
+}
+
+.college-certificate {
+  width: 400px;
+  height: 250px;
+  cursor: grab;
+}
+.shadow {
+  display: block;
+  position: relative;
+  margin: 200px auto 0;
+  width: 400px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 400px 250px;
+  /* background: linear-gradient(0deg, #000, #262626); */
+}
+
+.shadow:before,
+.shadow:after {
+  content: "";
+  position: absolute;
+  top: 0px; /*-2px*/
+  left: 0px;
+  background: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #ff0000,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  );
+  background-size: 400%;
+  width: calc(100%);
+  height: calc(100%);
+  z-index: -1000;
+  animation: animate 40s linear infinite;
+}
+
+div.shadow:after {
+  filter: blur(1000px);
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 350% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@media (max-width: 412px) {
+  .college-certificate {
+    width: 320px;
+    height: 200px;
+    cursor: grab;
+  }
+  .shadow {
+    display: block;
+    position: relative;
+    margin: 200px auto 0;
+    width: 320px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+    /* background: linear-gradient(0deg, #000, #262626); */
+  }
+}
+
+@media (max-width: 320px) {
+  .college-certificate {
+    width: 250px;
+    height: 157px;
+    cursor: grab;
+  }
+  .shadow {
+    display: block;
+    position: relative;
+    margin: 200px auto 0;
+    width: 250px;
+    height: 157px;
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+    /* background: linear-gradient(0deg, #000, #262626); */
+  }
+}
