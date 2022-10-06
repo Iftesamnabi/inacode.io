@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 .full-screen-container {
-  background-image: url("/resources-banner/images/nature.jpg");
+  background-image: url("/resources/images/nature.jpg");
   height: 100vh;
   width: 100vw;
   background-size: cover;
